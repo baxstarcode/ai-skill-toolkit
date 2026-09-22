@@ -1,0 +1,3 @@
+interface:
+  display_name: "Agent Build Continuity"
+  short_description: "Keep multiple AI agents aligned on the same build"

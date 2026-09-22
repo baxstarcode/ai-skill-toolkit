@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">AI Skill Toolkit</title>
+  <desc id="desc">A colorful abstract banner showing connected AI agents and reusable workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.48" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1050" cy="70" r="115" fill="#7C3AED" opacity="0.18"/>
+  <circle cx="110" cy="360" r="160" fill="#0EA5E9" opacity="0.14"/>
+  <g opacity="0.7" stroke="url(#accent)" stroke-width="3">
+    <path d="M760 112 C835 55 930 75 984 132" fill="none"/>
+    <path d="M760 210 C845 160 936 170 1012 225" fill="none"/>
+    <path d="M760 300 C840 340 930 322 1000 276" fill="none"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="760" cy="112" r="22" fill="#60A5FA"/>
+    <circle cx="984" cy="132" r="22" fill="#A78BFA"/>
+    <circle cx="760" cy="210" r="22" fill="#34D399"/>
+    <circle cx="1012" cy="225" r="22" fill="#60A5FA"/>
+    <circle cx="760" cy="300" r="22" fill="#A78BFA"/>
+    <circle cx="1000" cy="276" r="22" fill="#34D399"/>
+  </g>
+  <rect x="72" y="74" width="530" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="72" y="150" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF">AI Skill Toolkit</text>
+  <text x="72" y="205" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#D1D5DB">Field-tested workflows for better AI work.</text>
+  <text x="72" y="248" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#A7F3D0">Model-agnostic • practical • reusable</text>
+  <g transform="translate(72 300)">
+    <rect width="180" height="46" rx="23" fill="#FFFFFF" opacity="0.10"/>
+    <text x="90" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">BUILD SMARTER</text>
+  </g>
+  <g transform="translate(267 300)">
+    <rect width="170" height="46" rx="23" fill="#FFFFFF" opacity="0.10"/>
+    <text x="85" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">VERIFY MORE</text>
+  </g>
+  <g transform="translate(452 300)">
+    <rect width="150" height="46" rx="23" fill="#FFFFFF" opacity="0.10"/>
+    <text x="75" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">SHIP CLEAN</text>
+  </g>
+</svg>
